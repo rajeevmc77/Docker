@@ -1,0 +1,3 @@
+docker container prune
+docker build -t myimage .
+docker run -d -v d:/data:/myvol myimage

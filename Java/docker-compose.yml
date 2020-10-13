@@ -1,0 +1,11 @@
+# docker-compose version
+version: "3.7"
+
+# services/containers to be run
+services:
+  javaapp:
+    build: .
+    image: myimage    
+    volumes:
+      - d:/data/:/myvol/:rw   
+    
